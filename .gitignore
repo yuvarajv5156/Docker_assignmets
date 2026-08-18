@@ -1,10 +1,7 @@
+# Ignore hidden dotfiles and system directories
+.*
+!.gitignore
+
+# Ignore build/docker caches
 .cache/
 .docker/
-.ssh/
-
-.bash_history
-.bash_logout
-.bashrc
-.lesshst
-.profile
-.viminfo

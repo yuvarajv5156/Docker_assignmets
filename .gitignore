@@ -1,5 +1,10 @@
-*.log
-*.tar.gz
-*.zip
-.env
-*.pem
+.cache/
+.docker/
+.ssh/
+
+.bash_history
+.bash_logout
+.bashrc
+.lesshst
+.profile
+.viminfo

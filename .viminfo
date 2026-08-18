@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1787085099,,"wq"
+|2,0,1787085373,,"wq"
 :q
 |2,0,1787084254,,"q"
 :%d
@@ -28,56 +28,60 @@
 
 # Registers:
 ""1	LINE	0
-	FROM ubuntu:latest
-|3,1,1,1,1,0,1787082898,"FROM ubuntu:latest"
+	tomcat-app/
+|3,1,1,1,1,0,1787085367,"tomcat-app/"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1787082897,""
+	sample-tomcat-app/
+|3,0,2,1,1,0,1787085365,"sample-tomcat-app/"
 "3	LINE	0
-	RUN apt -y update
-|3,0,3,1,1,0,1787082897,"RUN apt -y update"
+	*.log
+|3,0,3,1,1,0,1787085360,"*.log"
 "4	LINE	0
-	RUN apt -y install default-jre
-|3,0,4,1,1,0,1787082897,"RUN apt -y install default-jre"
+	*.tar.gz
+|3,0,4,1,1,0,1787085360,"*.tar.gz"
 "5	LINE	0
-	RUN apt -y install wget
-|3,0,5,1,1,0,1787082897,"RUN apt -y install wget"
+	*.zip
+|3,0,5,1,1,0,1787085360,"*.zip"
 "6	LINE	0
-	RUN mkdir /usr/local/tomcat
-|3,0,6,1,1,0,1787082897,"RUN mkdir /usr/local/tomcat"
+	.env
+|3,0,6,1,1,0,1787085360,".env"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1787082897,""
+	*.pem
+|3,0,7,1,1,0,1787085360,"*.pem"
 "8	LINE	0
-	RUN wget https://downloads01-he-fi.apache.org/tomcat/tomcat-9/v9.0.121/bin/apache-tomcat-9.0.121.tar.gz
-|3,0,8,1,1,0,1787082897,"RUN wget https://downloads01-he-fi.apache.org/tomcat/tomcat-9/v9.0.121/bin/apache-tomcat-9.0.121.tar.gz"
+	FROM ubuntu:latest
+|3,0,8,1,1,0,1787082898,"FROM ubuntu:latest"
 "9	LINE	0
 	
 |3,0,9,1,1,0,1787082897,""
 
 # File marks:
-'0  5  4  ~/.gitignore
-|4,48,5,4,1787085099,"~/.gitignore"
-'1  17  9  ~/tomcat-app/Dockerfile
-|4,49,17,9,1787084268,"~/tomcat-app/Dockerfile"
-'2  17  10  ~/tomcat-app/Dockerfile
-|4,50,17,10,1787083905,"~/tomcat-app/Dockerfile"
-'3  20  0  ~/tomcat-app/Dockerfile
-|4,51,20,0,1787082906,"~/tomcat-app/Dockerfile"
-'4  20  0  ~/tomcat-app/Dockerfile
-|4,52,20,0,1787082906,"~/tomcat-app/Dockerfile"
+'0  4  0  ~/.gitignore
+|4,48,4,0,1787085373,"~/.gitignore"
+'1  1  4  ~/.gitignore
+|4,49,1,4,1787085099,"~/.gitignore"
+'2  5  4  ~/.gitignore
+|4,50,5,4,1787085099,"~/.gitignore"
+'3  17  9  ~/tomcat-app/Dockerfile
+|4,51,17,9,1787084268,"~/tomcat-app/Dockerfile"
+'4  17  10  ~/tomcat-app/Dockerfile
+|4,52,17,10,1787083905,"~/tomcat-app/Dockerfile"
 '5  20  0  ~/tomcat-app/Dockerfile
 |4,53,20,0,1787082906,"~/tomcat-app/Dockerfile"
 '6  20  0  ~/tomcat-app/Dockerfile
 |4,54,20,0,1787082906,"~/tomcat-app/Dockerfile"
-'7  1  0  ~/sample-tomcat-app/Dockerfile
-|4,55,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
-'8  1  0  ~/tomcat-app/Dockerfile
-|4,56,1,0,1787082471,"~/tomcat-app/Dockerfile"
-'9  19  0  ~/tomcat-app/Dockerfile
-|4,57,19,0,1787082471,"~/tomcat-app/Dockerfile"
+'7  20  0  ~/tomcat-app/Dockerfile
+|4,55,20,0,1787082906,"~/tomcat-app/Dockerfile"
+'8  20  0  ~/tomcat-app/Dockerfile
+|4,56,20,0,1787082906,"~/tomcat-app/Dockerfile"
+'9  1  0  ~/sample-tomcat-app/Dockerfile
+|4,57,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
 
 # Jumplist (newest first):
+-'  4  0  ~/.gitignore
+|4,39,4,0,1787085373,"~/.gitignore"
+-'  1  4  ~/.gitignore
+|4,39,1,4,1787085353,"~/.gitignore"
 -'  5  4  ~/.gitignore
 |4,39,5,4,1787085099,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -86,6 +90,26 @@
 |4,39,17,9,1787084268,"~/tomcat-app/Dockerfile"
 -'  17  9  ~/tomcat-app/Dockerfile
 |4,39,17,9,1787084268,"~/tomcat-app/Dockerfile"
+-'  17  9  ~/tomcat-app/Dockerfile
+|4,39,17,9,1787084268,"~/tomcat-app/Dockerfile"
+-'  17  9  ~/tomcat-app/Dockerfile
+|4,39,17,9,1787084268,"~/tomcat-app/Dockerfile"
+-'  17  10  ~/tomcat-app/Dockerfile
+|4,39,17,10,1787083905,"~/tomcat-app/Dockerfile"
+-'  17  10  ~/tomcat-app/Dockerfile
+|4,39,17,10,1787083905,"~/tomcat-app/Dockerfile"
+-'  17  10  ~/tomcat-app/Dockerfile
+|4,39,17,10,1787083905,"~/tomcat-app/Dockerfile"
+-'  17  10  ~/tomcat-app/Dockerfile
+|4,39,17,10,1787083905,"~/tomcat-app/Dockerfile"
+-'  17  10  ~/tomcat-app/Dockerfile
+|4,39,17,10,1787083905,"~/tomcat-app/Dockerfile"
+-'  17  10  ~/tomcat-app/Dockerfile
+|4,39,17,10,1787083905,"~/tomcat-app/Dockerfile"
+-'  17  10  ~/tomcat-app/Dockerfile
+|4,39,17,10,1787083905,"~/tomcat-app/Dockerfile"
+-'  17  10  ~/tomcat-app/Dockerfile
+|4,39,17,10,1787083905,"~/tomcat-app/Dockerfile"
 -'  17  10  ~/tomcat-app/Dockerfile
 |4,39,17,10,1787083905,"~/tomcat-app/Dockerfile"
 -'  17  10  ~/tomcat-app/Dockerfile
@@ -122,6 +146,42 @@
 |4,39,20,0,1787083891,"~/tomcat-app/Dockerfile"
 -'  20  0  ~/tomcat-app/Dockerfile
 |4,39,20,0,1787083891,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787083891,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787083891,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787083891,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787083891,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787083891,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787083891,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787083891,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787083891,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787083891,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787083891,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787082906,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787082906,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787082906,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787082906,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787082906,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787082906,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787082906,"~/tomcat-app/Dockerfile"
+-'  20  0  ~/tomcat-app/Dockerfile
+|4,39,20,0,1787082906,"~/tomcat-app/Dockerfile"
 -'  20  0  ~/tomcat-app/Dockerfile
 |4,39,20,0,1787082906,"~/tomcat-app/Dockerfile"
 -'  20  0  ~/tomcat-app/Dockerfile
@@ -174,102 +234,42 @@
 |4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
 -'  1  0  ~/tomcat-app/Dockerfile
 |4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
--'  1  0  ~/sample-tomcat-app/Dockerfile
-|4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
+-'  1  0  ~/tomcat-app/Dockerfile
+|4,39,1,0,1787082890,"~/tomcat-app/Dockerfile"
 -'  1  0  ~/sample-tomcat-app/Dockerfile
 |4,39,1,0,1787082881,"~/sample-tomcat-app/Dockerfile"
 -'  1  0  ~/sample-tomcat-app/Dockerfile
@@ -282,11 +282,13 @@
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1787085094	0
-	"	5	4
-	^	5	5
-	.	5	4
-	+	5	4
+	*	1787085371	0
+	"	4	0
+	^	10	8
+	.	4	0
+	+	1	7
+	+	10	7
+	+	4	0
 
 > ~/tomcat-app/Dockerfile
 	*	1787084266	0
